@@ -54,18 +54,18 @@ h2 {
     justify-content: space-between;
 }
 
-.work {
+.work, .education {
     width: 45%;
-    background-color: #e6f3ff; /* light blue */
     padding: 1em;
     border-radius: 8px;
 }
 
+.work {
+    background-color: #e6f3ff; /* light blue */
+}
+
 .education {
-    width: 45%;
     background-color: #fff3e6; /* light orange */
-    padding: 1em;
-    border-radius: 8px;
 }
 
 .job, .degree, .section, .project {
@@ -342,3 +342,4 @@ hr {
 body, section, p, ul, li {
     text-align: justify;
 }
+
