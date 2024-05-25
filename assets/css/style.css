@@ -130,3 +130,17 @@ article h3 a {
 article p {
     margin: 0.5em 0;
 }
+
+.project-list li {
+    background: #e6ffe6;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 2em 0;
+}
+
