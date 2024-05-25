@@ -78,3 +78,130 @@ hr {
     background: #0073e6;
     margin: 1em 0;
 }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    text-align: justify;
+}
+
+header, footer {
+    background: #0073e6;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.info {
+    margin-bottom: 2em;
+}
+
+.language-box, .skill-box {
+    display: inline-block;
+    background: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 5px 5px 5px 0;
+}
+
+.language-box {
+    background: #cce5ff;
+}
+
+.skill-box {
+    background: #d4edda;
+}
+
+.info img.profile-img {
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.info-right p.italic {
+    font-style: italic;
+    text-align: center;
+}
+
+.project-list li, .resource, .job-offer, .blog-post {
+    margin-bottom: 2em;
+    background: #e6ffe6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.resource a, .job-offer a, .project-list a, .blog-post a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.resource a:hover, .job-offer a:hover, .project-list a:hover, .blog-post a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 2em;
+}
+
+.category-section h3 {
+    font-size: 1.5em;
+    color: #0073e6;
+    margin-top: 1em;
+}
+
+.category-section {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #0073e6;
+    margin: 1em 0;
+}
