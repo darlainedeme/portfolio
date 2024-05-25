@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000; /* black menu font */
+    color: black; /* black menu font */
     text-decoration: none;
     font-weight: bold;
 }
@@ -96,6 +96,10 @@ ul li {
 ul li a {
     text-decoration: none;
     color: #005bb5;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
 
 .profile-img {
@@ -332,4 +336,9 @@ hr {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+/* Justify text alignment for most content */
+body, section, p, ul, li {
+    text-align: justify;
 }
