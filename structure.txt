@@ -1,0 +1,15 @@
+portfolio/
+├── index.html
+├── cv.html
+├── projects.html
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── scripts.js
+│   └── images/
+│       └── profile.jpg
+└── data/
+    ├── electricity_access.xlsx
+    ├── africa_conflicts.csv
+    └── data_centers.gpkg
