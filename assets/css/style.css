@@ -1,3 +1,157 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #000; /* black menu font */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    flex: 1;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-height: 80vh;
+}
+
+h2 {
+    color: #0073e6;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.cv-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work {
+    width: 45%;
+    background-color: #e6f3ff; /* light blue */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.education {
+    width: 45%;
+    background-color: #fff3e6; /* light orange */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.job, .degree, .section, .project {
+    margin-bottom: 2em;
+}
+
+.job h4, .degree h4, .project h4 {
+    margin: 0;
+    color: #005bb5;
+}
+
+.job p, .degree p, .project p {
+    margin: 0.5em 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e6ffe6; /* light green for projects */
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #005bb5;
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #0073e6;
+    color: #fff;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+article h3 a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+article p {
+    margin: 0.5em 0;
+}
+
+.project-list li {
+    background: #e6ffe6; /* light green for projects */
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 2em 0;
+}
+
+.skill-box, .language-box {
+    background: #f0f0f0;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin: 0.5em 0;
+    display: inline-block;
+}
+
 /* Dropdown Menu */
 .dropbtn {
     background-color: #0073e6;
