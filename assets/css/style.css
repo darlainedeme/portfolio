@@ -40,6 +40,7 @@ section {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    min-height: 80vh;
 }
 
 h2 {
@@ -163,4 +164,3 @@ footer p {
     border-radius: 50%;
     position: absolute;
 }
-
