@@ -56,14 +56,14 @@ h2 {
 
 .work {
     width: 45%;
-    background-color: #e6ffe6;
+    background-color: #e6ffe6; /* light green */
     padding: 1em;
     border-radius: 8px;
 }
 
 .education {
     width: 45%;
-    background-color: #fff3e6;
+    background-color: #fff3e6; /* light orange */
     padding: 1em;
     border-radius: 8px;
 }
@@ -87,7 +87,7 @@ ul {
 }
 
 ul li {
-    background: #e6f3ff;
+    background: #e6f3ff; /* light blue */
     margin: 0.5em 0;
     padding: 0.5em;
     border-radius: 4px;
@@ -132,7 +132,7 @@ article p {
 }
 
 .project-list li {
-    background: #e6ffe6;
+    background: #e6f3ff; /* light green for projects */
     margin: 0.5em 0;
     padding: 0.5em;
     border-radius: 4px;
