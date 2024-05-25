@@ -57,6 +57,7 @@ h2 {
 .info {
     margin-bottom: 2em;
 =======
+<<<<<<< HEAD
 body {
     display: flex;
     flex-direction: column;
@@ -268,6 +269,33 @@ hr {
     border-radius: 50%;
     margin-top: 20px;
 >>>>>>> parent of 9f388a2 (final update)
+=======
+/* Header and Navigation */
+nav ul li a {
+    color: black;
+}
+
+/* Home Page */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-left {
+    width: 60%;
+}
+
+.info-right {
+    width: 35%;
+    text-align: right;
+}
+
+.info img.profile-img {
+    display: block;
+    margin: 0 auto 10px auto;
+>>>>>>> parent of 5dc3e4d (css)
+>>>>>>> parent of dd457f7 (big update)
 }
 
 .language-box, .skill-box {
@@ -278,6 +306,7 @@ hr {
     margin: 5px 0;
 }
 
+<<<<<<< HEAD
 .language-box {
     background: #cce5ff;
 }
@@ -323,6 +352,8 @@ hr {
     text-decoration: underline;
 }
 
+=======
+>>>>>>> parent of 5dc3e4d (css)
 /* Section Styles */
 =======
 >>>>>>> parent of 9f388a2 (final update)
@@ -351,7 +382,7 @@ hr {
     margin: 1em 0;
 }
 
-/* Home Page Specific Styles */
+/* Top Section */
 .top-section {
     display: flex;
     justify-content: space-between;
@@ -366,6 +397,7 @@ hr {
     width: 35%;
     text-align: right;
 }
+<<<<<<< HEAD
 
 .dropdown {
     position: relative;
@@ -415,3 +447,5 @@ hr {
     text-decoration: underline;
 >>>>>>> parent of 9f388a2 (final update)
 }
+=======
+>>>>>>> parent of dd457f7 (big update)
