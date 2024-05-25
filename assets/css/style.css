@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -30,6 +33,7 @@ nav ul li a {
 }
 
 section {
+    flex: 1;
     padding: 2em;
     margin: 2em auto;
     max-width: 800px;
@@ -86,9 +90,9 @@ footer {
     padding: 1em 0;
     background-color: #0073e6;
     color: #fff;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
+    margin-top: auto;
 }
 
 footer p {
