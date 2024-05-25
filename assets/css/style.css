@@ -326,3 +326,10 @@ hr {
     background: #0073e6;
     margin: 1em 0;
 }
+
+.blog-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
