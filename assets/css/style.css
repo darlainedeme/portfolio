@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000; /* black menu font */
     text-decoration: none;
     font-weight: bold;
 }
@@ -142,4 +142,12 @@ hr {
     border: 0;
     border-top: 1px solid #cccccc;
     margin: 2em 0;
+}
+
+.skill-box, .language-box {
+    background: #f0f0f0;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin: 0.5em 0;
+    display: inline-block;
 }
